@@ -1,0 +1,26 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /kkk
+    encoding:
+      enabled: true
+      charset: UTF-8
+  tomcat:
+    accept-count: 1000    #队列长度
+    threads:
+      max: 1600   #最大线程数，CPU核数 * 200
+      min-spare: 100   #最小线程数
+    max-keep-alive-requests: 200     #HTTP请求最大长连接个数
+    max-connections: 10000   #最大连接数
+
+
+
+spring:
+  application:
+    name: boottest
+
+gjp:
+  config:
+    label-name: gjp
+#  testProperties: testp
+

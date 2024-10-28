@@ -1,0 +1,5 @@
+#org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+#  com.gjp.configtest.GjpConfig
+
+org.springframework.boot.env.EnvironmentPostProcessor=\
+  com.gjp.MyOutEnvironmentPostProcessor
